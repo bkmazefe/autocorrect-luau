@@ -5,11 +5,7 @@
 --- @param str string
 --- @return {string}
 local function str_table(str: string): { string }
-	local t = {}
-
-	for i = 1, #str do
-		table.insert(t, string.sub(str, i, i))
-	end
+	local t = string.split(str, "")
 
 	return t
 end
