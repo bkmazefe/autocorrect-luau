@@ -218,3 +218,7 @@ function Word.double_typos(self: Word): { string }
 
 	return chain(table.unpack(list))
 end
+
+return {
+	Word = Word,
+}

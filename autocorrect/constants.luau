@@ -55,4 +55,5 @@ local alphabets = {
 return {
 	word_regexes = word_regexes,
 	alphabets = alphabets,
+	r = r,
 }
